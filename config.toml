@@ -1,6 +1,6 @@
 baseURL = "http://material-design-peopleunleashed.s3-website-us-east-1.amazonaws.com/"
 languageCode = "en-us"
-title = "PEOPLE Unleashed"
+title = ""
 theme = "material-design"
 
 [[deployment.targets]]
