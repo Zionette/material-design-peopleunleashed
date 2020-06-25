@@ -1,0 +1,9 @@
+baseURL = "http://material-design-peopleunleashed.s3-website-us-east-1.amazonaws.com/"
+languageCode = "en-us"
+title = "PEOPLE Unleashed"
+theme = "material-design"
+
+[[deployment.targets]]
+#An arbitrary name for this target.
+name = "awsbucket"
+URL = "s3://material-design-peopleunleashed/?region=us-east-1"
