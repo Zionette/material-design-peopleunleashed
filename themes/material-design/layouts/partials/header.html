@@ -7,13 +7,13 @@
   <link href="{{.Site.BaseURL}}/css/materialize.min.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="{{.Site.BaseURL}}/css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/8.6/styles/default.min.css">
-  <style type="text/css">
-  {{if .Site.Params.footerCover}}
-    footer.page-footer{background-image: url({{.Site.BaseURL}}/{{.Site.Params.footerCover}});}
-  {{else}}
-    footer.page-footer{background-image: url({{.Site.BaseURL}}/images/wildflowers.jpeg);}
-  {{end}}
-  </style>
+ <style type="text/css">
+ {{if .Site.Params.footerCover}}
+   footer.page-footer{background-image: url({{.Site.BaseURL}}/{{.Site.Params.footerCover}});}
+ {{else}}
+   footer.page-footer{background-image: url({{.Site.BaseURL}}/images/botanic.jpeg);}
+ {{end}}
+ </style>
 </head>
 <body>
   <ul id="slide-out" class="side-nav">
@@ -49,7 +49,11 @@
         {{if .Site.Params.linkedin}}
           <a href="https://www.linkedin.com/in/{{.Site.Params.linkedin}}"><img src="{{.Site.BaseURL}}/images/linkedin-dreamstale45.png"></a>
         {{end}}
-          <a href="{{.Site.BaseURL}}/index.xml"><img src="{{.Site.BaseURL}}/images/feed-dreamstale27.png"></a>
+          <a href="https://www.linkedin.com/in/{{.Site.Params.linkedin}}"><img src="{{.Site.BaseURL}}/images/linkedin-dreamstale45.png"></a>
+         <a href="https://twitter.com/{{.Site.Params.twitter}}"><img src="{{.Site.BaseURL}}/images/twitter-dreamstale71.png"></a>
+         <a href="https:///www.facebook.com/PEOPLE.zcleek/{{.Site.Params.facebook}}"><img src="{{.Site.BaseURL}}/images/facebook-dreamstale25.png"></a>
+         <a href="https://github.com/Zionette/{{ .Site.Params.github }}"><img src="{{.Site.BaseURL}}/images/github2-dreamstale35.png"></a>
+        <a href="https://www.instagram.com/{{ .Site.Params.instagram }}"><img src="{{.Site.BaseURL}}/images/instagram2.jpeg"></a>
         </div>
       </div>
     </div>
